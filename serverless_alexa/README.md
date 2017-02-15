@@ -1,7 +1,10 @@
 ### What you'll need
 
 1. Amazon developer account
-2. AWS Keys for your user
+2. AWS Keys for a user with:
+- IAM Full Access
+- Api Gateway Admin
+- Lambda Full Access
 
 ### Getting Started
 
@@ -20,6 +23,7 @@ cp examplehandler.js handler.js
 ```
 
 4. Add an event alexaSkill in `serverless.yml` for your function
+- https://developer.amazon.com/blogs/post/Tx3DVGG0K0TPUGQ/updated-alexa-skills-kit-fact-template-step-by-step-guide-to-build-a-fact-skill
 
 ```
 functions:

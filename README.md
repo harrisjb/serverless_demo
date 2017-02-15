@@ -1,7 +1,10 @@
 ### What you'll need
 
 1. Amazon developer account
-2. AWS Keys for your user
+2. AWS Keys for a user with:
+- IAM Full Access
+- Api Gateway Admin
+- Lambda Full Access
 3. AWS CLI tool if you don't have it 
 
 ```brew install awscli```
