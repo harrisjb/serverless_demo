@@ -27,22 +27,13 @@ As well as the custom permission:
 
 ### Getting Started
 
-1. Install serverless
-
-`npm install -g serverless`
-
-2. Create project
-
-`serverless create -t aws-nodejs`
-
-3. Copy `examplehandler.js` to `handler.js` 
-
-```
-cp examplehandler.js handler.js
-```
-
+1. Install serverless `npm install -g serverless`
+2. Create project `serverless create -t aws-nodejs`
+3. Copy my `examplehandler.js` into your `handler.js` 
 4. Add an event alexaSkill in `serverless.yml` for your function
-- https://developer.amazon.com/blogs/post/Tx3DVGG0K0TPUGQ/updated-alexa-skills-kit-fact-template-step-by-step-guide-to-build-a-fact-skill
+
+NOTE: the default function that gets created is hello, you will need to
+remove this and replace with the following: 
 
 ```
 functions:
@@ -78,3 +69,5 @@ serverless deploy
 12. Upload a picture for your skill (required), tell them how to test
     it, and submit
 
+This tutorial is based on:
+-  https://developer.amazon.com/blogs/post/Tx3DVGG0K0TPUGQ/updated-alexa-skills-kit-fact-template-step-by-step-guide-to-build-a-fact-skill
