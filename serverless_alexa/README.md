@@ -2,9 +2,28 @@
 
 1. Amazon developer account
 2. AWS Keys for a user with:
-- IAM Full Access
-- Api Gateway Admin
-- Lambda Full Access
+  - IAM Full Access
+  - Api Gateway Admin
+  - Lambda Full Access
+
+
+As well as the custom permission:
+```
+{
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "cloudformation:CreateStack",
+                "cloudformation:UpdateStack"
+            ],
+            "Resource": [
+                "*"
+            ]
+        }
+    ]
+}
+```
 
 ### Getting Started
 
