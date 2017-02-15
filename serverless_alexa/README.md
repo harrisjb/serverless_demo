@@ -75,5 +75,6 @@ serverless deploy
 
 11. Configure it as you want, make skill more complex, redeploy
 
-12. Upload a picture for your skill (required) and submit
+12. Upload a picture for your skill (required), tell them how to test
+    it, and submit
 
