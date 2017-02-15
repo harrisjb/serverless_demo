@@ -1,0 +1,11 @@
+{
+  "name": "claudia_framework",
+  "version": "1.0.0",
+  "description": "1. Amazon developer account 2. AWS Keys for your user",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

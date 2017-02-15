@@ -1,0 +1,16 @@
+{
+  "name": "claudia_framework_api_gateway",
+  "version": "1.0.0",
+  "description": "api gateway hello world",
+  "main": "app.js",
+  "dependencies": {
+    "claudia-api-builder": "^2.4.0",
+    "superb": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "claudia_framework_api_gateway-executor",
+    "name": "claudia_framework_api_gateway",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "xhi11fark8",
+    "module": "app"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "claudia_framework-executor",
+    "name": "claudia_framework",
+    "region": "us-east-1"
+  }
+}

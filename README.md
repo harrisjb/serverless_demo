@@ -2,32 +2,17 @@
 
 1. Amazon developer account
 2. AWS Keys for your user
+3. AWS CLI tool if you don't have it 
 
-### Slides and docs
+```brew install awscli```
+
+### Slides
 
 ### Getting Started
 
-1. Install serverless
+1. Make sure you have an [AWS account](https://aws.amazon.com) set up `https://aws.amazon.com`
 
-`npm install -g serverless`
+2. Make sure you have an [AWS developer](https://developer.amazon.com/) account set up `https://developer.amazon.com/`
 
-2. Create project
-
-`serverless create -t aws-nodejs`
-
-3. Add an event endpoint in `serverless.yml`
-
-```
-functions:
-  hello:
-    handler: handler.hello
-
-#    The following are a few example events you can configure
-#    NOTE: Please make sure to change your handler code to work with those events
-#    Check the event documentation for details
-    events:
-      - http:
-          path: users/create
-          method: get
-
-```
+3. Each directory is a different serverless framework or project, cd
+   into the directories for instructions in the README files
