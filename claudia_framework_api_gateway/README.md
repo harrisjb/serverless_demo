@@ -11,7 +11,7 @@
 ### Getting Started
 
 Using tutorial at
-https://claudiajs.com/tutorials/hello-world-lambda.html
+https://claudiajs.com/tutorials/hello-world-api-gateway.html
 
 1. Install claudia js
 
