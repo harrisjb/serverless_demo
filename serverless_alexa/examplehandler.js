@@ -89,8 +89,6 @@
 
 module.exports.catFacts = (event, context, callback) => {
 
-  const upperLimit = event.request.intent;
-
   const factIndex = Math.floor(Math.random() * CAT_FACTS.length);
   const randomFact = CAT_FACTS[factIndex];
 
