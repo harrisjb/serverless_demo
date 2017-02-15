@@ -1,10 +1,13 @@
 ### What you'll need
 
 1. Amazon developer account
-2. AWS Keys for a user with:
-  - IAM Full Access
-  - Api Gateway Admin
-  - Lambda Full Access
+2. AWS Keys for a user with (FYI if you have an admin user it will work):
+
+```
+   IAM Full Access
+   Api Gateway Admin
+   Lambda Full Access
+```
 
 
 As well as the custom permission:
